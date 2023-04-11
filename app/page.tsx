@@ -1,6 +1,6 @@
 
 async function getData(section: any) {
-  const res = await fetch(`http://localhost:3000/api/get-section?section=${section}`);
+  const res = await fetch(`https://shopify-section-previewer-ah4vz413b-kiriltsanov12-gmailcom.vercel.app/api/get-section?section=${section}`);
 
   if (!res.ok) {
     throw new Error('Failed to fetch data');
