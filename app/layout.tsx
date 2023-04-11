@@ -12,6 +12,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" media="all"></link>
+<link rel="stylesheet" href="https://sdk.loyaltylion.net/sdk/css/12d9a4f15f5216a7095e812e8bf77f6a/modern-b324e39-8c759f8.css" media="all" data-lion-css="modern"></link>
+<link rel="preconnect" href="//cdn.shopify.com" crossOrigin=""></link>
+<link rel="dns-prefetch" href="//cdn.shopify.com"></link>
+<link rel="preload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/fonts.css?v=33603986690143527911678840209" as="style"></link>
+<link rel="preload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/theme.css" as="style"></link>
+<link href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/fonts.css?v=33603986690143527911678840209" rel="stylesheet" type="text/css" media="all"></link>
+<link href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/theme.css?v=52743089855377442941680817851" rel="stylesheet" type="text/css" media="all"></link>
+<script src="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/theme.js?v=151417525417219496551680817852" type="module" crossorigin="anonymous"></script>
+<link rel="modulepreload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/module.esm.js?v=98310389408756557431680817847" crossorigin="anonymous"></link>
+<link rel="modulepreload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/Engine.js?v=74450141074509298291680802353" crossorigin="anonymous"></link>
+      </head>
       <body>{children}</body>
     </html>
   )
