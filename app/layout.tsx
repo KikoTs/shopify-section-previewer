@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import './globals.css'
 
 export const metadata = {
@@ -21,9 +22,9 @@ export default function RootLayout({
 <link rel="preload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/theme.css" as="style"></link>
 <link href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/fonts.css?v=33603986690143527911678840209" rel="stylesheet" type="text/css" media="all"></link>
 <link href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/theme.css?v=52743089855377442941680817851" rel="stylesheet" type="text/css" media="all"></link>
-<script src="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/theme.js?v=151417525417219496551680817852" type="module" crossorigin="anonymous"></script>
-<link rel="modulepreload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/module.esm.js?v=98310389408756557431680817847" crossorigin="anonymous"></link>
-<link rel="modulepreload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/Engine.js?v=74450141074509298291680802353" crossorigin="anonymous"></link>
+<script src="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/theme.js?v=151417525417219496551680817852" type="module" crossOrigin="anonymous"></script>
+<link rel="modulepreload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/module.esm.js?v=98310389408756557431680817847" crossOrigin="anonymous"></link>
+<link rel="modulepreload" href="//cdn.shopify.com/s/files/1/0838/4525/t/173/assets/Engine.js?v=74450141074509298291680802353" crossOrigin="anonymous"></link>
       </head>
       <body>{children}</body>
     </html>
